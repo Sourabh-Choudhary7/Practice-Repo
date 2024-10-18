@@ -71,3 +71,56 @@ const root = arr.map((n) => Math.sqrt(n))
 // console.log(root);
 // Expected output: Array [2, 8, 18, 32]
 
+// basic js concept
+// const [x, y] = "abc"
+// console.log(x, y)
+// console.log(!"hi")
+// console.log(+false)
+
+// const obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//     b: 4,
+//     "a": 5
+// }
+// console.log(obj)
+
+
+// push() and pop()
+// const numbers = [1, 2, 3, 4, 5]
+// console.log(".....................")
+// console.log(numbers.push(6))
+// console.log("PUSH",numbers)
+// console.log(numbers.pop())
+// console.log("POP",numbers)
+
+// reduce()
+const initialValue = 0;
+const res = [1, 2, 3, 4].reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    initialValue,
+);
+
+// console.log(res)
+
+// reverse()
+const originalArray = [1,2,3,4, 5]
+const rev = originalArray.reverse()
+// console.log(originalArray)  // its reverse the original array
+// console.log(rev)
+
+// sort()
+const unsortedArray = [4, 2, 9, 1, 5];
+const sortedArray = unsortedArray.sort((a, b) => a - b);
+// console.log(sortedArray)
+
+// To be learn
+// splice, toLocalString, toReverse, toSorted, unshift, length
+
+// splice()
+const forestAnimals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+// console.log(forestAnimals.slice(1,3));
+// console.log(forestAnimals.slice(2,4));
+// console.log(forestAnimals.slice(2));
